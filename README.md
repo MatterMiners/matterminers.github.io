@@ -1,2 +1,2 @@
-# MinteralMining.github.io
+# MineralMining.github.io
 Website for the MineralMining projects
