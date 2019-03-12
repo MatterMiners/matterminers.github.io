@@ -1,4 +1,4 @@
-# MatterMiners.github.io
+# matterminers.github.io
 Website for the MatterMiners projects.
 
 ## Get up and running
