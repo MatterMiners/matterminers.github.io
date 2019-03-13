@@ -1,0 +1,48 @@
+allocation:
+  name: allocation
+  description: |-
+    The value of allocation is defined between [0, 1]. An allocation of 0 means a resource / pool / cluster has not been allocated, that means, no task is assigned. An allocation of 1 means that a task is assigned to a resource itself or to all resources in a pool / cluster. The allocation does not specify the quality of resource utilisation.
+cluster: 
+  name: cluster
+  description: |-
+    A cluster is a collection of pools. A cluster does have one specific scheduler and scheduling algorithm assigned that schedules tasks to dedicated resoures in the pools.
+controller: 
+  name: controller
+  description: |-
+    Not specified yet.
+opportunistic resource: 
+  name: opportunistic resource
+  description: |-
+    Any resources available for but not dedicated to a specific task. This includes resources which are acquired temporarily, but not owned permanently. Strongly put, any resource borrowed for usage outside of its dedicated purpose. This includes performing a non-dedicated task instead of idling in the absence of a dedicated task.
+overlay cluster: 
+  name: overlay cluster
+  description: |-
+    An overlay cluster is a special form of a cluster. It is a collection of the integrated resources spanning the different pools in all available clusters, containing both opportunistic and static resources.
+pool: 
+  name: pool
+  description: |-
+    A pool is a collection of resources that are indistinguishable from each other.
+resource: 
+  name: resource
+  description: |-
+    A resource is defined by a set of parameters, e.g. number of cores, RAM, disk.
+scheduler: 
+  name: scheduler
+  description: |-
+    Not specified yet.
+scheduling algorithm: 
+  name: scheduling algorithm
+  description: |-
+    Not specified yet.
+static resources: 
+  name: static resources
+  description: |-
+    Not specified yet.
+task: 
+  name: task
+  description: |-
+    Not specified yet.
+utilisation: 
+  name: utilisation
+  description: |-
+    The value of utilisation is defined between [0, 1]. An utilisation of 0 means that e.g. none of the cores provided by a resource are actually used although the resource itself is allocated. An utilisation of 1 means taht e.g. all cores provided by a resoure are used. Thus, utilisation defines the quality how well a resource is used.
