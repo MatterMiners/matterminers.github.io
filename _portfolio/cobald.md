@@ -1,5 +1,6 @@
 ---
 name: COBalD
+project-id: cobald
 subcaption: COBalD – the Opportunistic Balancing Daemon
 documentation: https://cobald.readthedocs.io/en/latest/?badge=latest
 git: https://github.com/MaineKuehn/cobald
