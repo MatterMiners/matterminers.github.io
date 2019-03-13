@@ -3,6 +3,7 @@ name: COBalD
 subcaption: COBalD – the Opportunistic Balancing Daemon
 documentation: https://cobald.readthedocs.io/en/latest/?badge=latest
 git: https://github.com/MaineKuehn/cobald
+doi: http://doi.org/10.5281/zenodo.1887873
 logo: cobald_logo_120.png
 ---
 
