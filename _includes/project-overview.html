@@ -1,0 +1,21 @@
+{% assign project = include.project-id %}
+<div class="row center-align">
+	<div class="row">
+		{% if project.logo %}
+		<div class="col s2 offset-s5">
+			<img class="responsive-img" src="assets/images/{{project.logo}}"/>
+		</div>
+		{% endif %}
+		<div class="col s12">
+			<h2 class="section-heading">{{ project.name }}</h2>
+			<h3 class="section-subheading text-muted">{{ project.subcaption }}</h3>
+			<p>{{ project.content }}</p>
+			{% if project.documentation %}
+				<a class="waves-effect waves-light btn" href="{{ project.documentation }}"><i class="fas fa-book-open left"></i>Doumentation</a>
+			{% endif %}
+			{% if project.git %}
+				<a class="waves-effect waves-light btn" href="{{ project.git }}"><i class="fas fa-code-branch left"></i>Version Control</a>
+			{% endif %}
+		</div>
+	</div>
+</div>
