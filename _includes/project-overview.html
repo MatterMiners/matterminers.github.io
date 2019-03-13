@@ -9,12 +9,15 @@
 		<div class="col s12">
 			<h2 class="section-heading">{{ project.name }}</h2>
 			<h3 class="section-subheading text-muted">{{ project.subcaption }}</h3>
-			<p>{{ project.content }}</p>
+			<div class="flow-text">{{ project.content }}</div>
 			{% if project.documentation %}
 				<a class="waves-effect waves-light btn" href="{{ project.documentation }}"><i class="fas fa-book-open left"></i>Doumentation</a>
 			{% endif %}
 			{% if project.git %}
 				<a class="waves-effect waves-light btn" href="{{ project.git }}"><i class="fas fa-code-branch left"></i>Version Control</a>
+			{% endif %}
+			{% if project.doi %}
+				<a class="waves-effect waves-light btn" href="{{ project.doi }}"><i class="fas fa-certificate"></i> DOI</a>
 			{% endif %}
 		</div>
 	</div>
