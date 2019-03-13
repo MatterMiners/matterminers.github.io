@@ -1,0 +1,113 @@
+{% include head.html %}
+
+{% include navigation.html %}
+
+<!-- Header -->
+<header>
+	<div class="parallax-container">
+		<div class="section no-pad-bot">
+			<div class="container">
+				<br/><br/>
+				<h1 class="header center">{{ site.title }}</h1>
+				<div class="row center">
+					<h5 class="header col s12 light">{{ site.description }}</h5>
+				</div>
+				<br><br/>
+			</div>
+		</div>
+		<div class="parallax">
+			<img src="{{site.parallax_image}}" alt="Mineral Mining Background Image"/>
+		</div>
+	</div>
+</header>
+
+<div class="section">
+	<div class="row">
+		<div class="col s12 m6 l4 push-m6">
+			<div class="card small hoverable">
+				<div class="card-image">
+					<i class="fas fa-tachometer-alt"></i>
+					<span class="card-title black-text">Simulate</span>
+				</div>
+				<div class="card-content">
+					<p>
+						You want to know how you are able to benefit from dynamic resource allocation? Describe your available hardware and simulate first. You can choose between static and dynamic resource utilisation to compare the different methods.
+					</p>
+				</div>
+				<div class="card-action">
+					<a class="waves effect waves-light btn" href="#lapis">Read More</a>
+				</div>
+			</div>
+		</div>
+		<div class="col s12 m6 l4 pull-m6">
+			<div class="card medium hoverable">
+				<div class="card-image">
+					<i class="fas fa-terminal"></i>
+					<span class="card-title black-text">Run</span>
+				</div>
+				<div class="card-content">
+					<p>
+						Let it run!
+					</p>
+				</div>
+				<div class="card-action">
+					<a class="waves effect wasves-light btn" href="#cobald">Read More</a>
+				</div>
+			</div>
+		</div>
+		<div class="col s12 m6 l4">
+			<div class="card small hoverable">
+				<div class="card-image">
+					<i class="fas fa-chart-line"></i>
+					<span class="card-title black-text">Visualise</span>
+				</div>
+				<div class="card-content">
+					<p>
+						Visualise your statistics such as utilisation or allocation from either simulation or your production COBalD environment.
+					</p>
+				</div>
+				<div class="card-action">
+					<a class="btn disabled" href="#tigereye">Coming Soon!</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- actual contents of landing page -->
+{% for project in site.portfolio %}
+<div class="row center-align" id="projects">
+	<div class="row">
+		{% if project.logo %}
+		<div class="col s2 offset-s5">
+			<img class="responsive-img" src="assets/images/{{project.logo}}"/>
+		</div>
+		{% endif %}
+		<div class="col s12">
+			<h2 class="section-heading">{{ project.name }}</h2>
+			<h3 class="section-subheading text-muted">{{ project.subcaption }}</h3>
+			<p>{{ project.content }}</p>
+			{% if project.documentation %}
+			<a class="waves-effect waves-light btn" href="{{ project.documentation }}"><i class="fas fa-book-open left"></i>Doumentation</a>
+			{% endif %}
+			{% if project.git %}
+			<a class="waves-effect waves-light btn" href="{{ project.git }}"><i class="fas fa-code-branch left"></i>Version Control</a>
+			{% endif %}
+		</div>
+	</div>
+</div>
+{% endfor %}
+
+<div id="about" class="section row">
+	<div class="col s12">
+		<h1>About</h1>
+	</div>
+</div>
+
+<div id="team" class="section row">
+	<div class="col s12">
+		<h1>Team</h1>
+	</div>
+</div>
+
+{% include footer.html %}

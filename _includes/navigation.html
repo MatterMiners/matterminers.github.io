@@ -1,0 +1,52 @@
+<!-- Navigation -->
+<div class="navbar-fixed">
+	<nav>
+		<div class="nav-wrapper">
+			<a href="#!" class="brand-logo"><img src="assets/images/mm.svg" class="responsive-img"></a>
+			<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li><a class="dropdown-trigger" href="/" data-target="projectdropdown">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
+				<li><a class="dropdown-trigger" href="/" data-target="exampledropdown">Examples<i class="material-icons right">arrow_drop_down</i></a></li>
+				<li><a href="/#about">About</a></li>
+				<li><a href="/#team">Team</a></li>
+				<li><a href="/glossary.html">Glossary</a></li>
+			</ul>
+		</div>
+	</nav>
+</div>
+
+<ul class="sidenav" id="mobile-demo">
+	<li><a href="/#projects">Projects</a>
+		<ul>
+			<li><a href="/#cobald">COBalD</a></li>
+			<li><a href="/#lapis">Lapis</a></li>
+			<li><a href="/#tigereye">TigerEye</a></li>
+		</ul>
+	</li>
+	<li><a href="/#examples">Examples</a>
+		<ul>
+			<li><a href="/#tardis">Tardis</a></li>
+			<li><a href="/#limiter">HTCondor Limits</a></li>
+		</ul>
+	</li>
+	<li><a href="/#about">About</a></li>
+	<li><a href="/#team">Team</a></li>
+	<li><a href="/glossary.html">Glossary</a></li>
+</ul>
+
+<!-- Dropdown project structure -->
+<ul id="projectdropdown" class="dropdown-content">
+	<li><a href="/#projects">Projects</a></li>
+	<li class="divider"></li>
+	<li><a href="/#cobald">COBalD</a></li>
+	<li><a href="/#lapis">Lapis</a></li>
+	<li><a href="/#tigereye" class="disabled">TigerEye</a></li>
+</ul>
+
+<!-- Dropdown example structure -->
+<ul id="exampledropdown" class="dropdown-content">
+	<li><a href="/#examples">Examples</a></li>
+	<li class="divider"></li>
+	<li><a href="/#tardis">Tardis</a></li>
+	<li><a href="/#limiter">HTCondor Limits</a></li>
+</ul>
