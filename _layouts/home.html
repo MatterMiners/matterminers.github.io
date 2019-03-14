@@ -87,6 +87,15 @@
 </div>
 
 <div class="section" id="examples">
+	{% assign first = true %}
+	{% for example in site.examples %}
+	{% if first == true %}
+	{% assign first = false %}
+	{% else %}
+	<div class="divider"></div>
+	{% endif %}
+	{% include project-overview.html project-id=example %}
+	{% endfor %}
 </div>
 
 <div class="container" id="team">
