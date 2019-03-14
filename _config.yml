@@ -22,6 +22,7 @@ url: "https://matterminers.github.io" # the base hostname & protocol for your si
 github_username:  MatterMiners
 
 parallax_image: /assets/images/20160226-CN-01-007.jpg
+parallax_image_examples: /assets/images/asphalt-black-and-white-color-1851472.jpg
 
 # Build settings
 markdown: kramdown
