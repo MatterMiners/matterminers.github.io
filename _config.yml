@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: MatterMiners
+name: MatterMiners @ Karlsruhe Institute of Technology - Steinbuch Centre for Computing
 description: >- # this means to ignore newlines until "baseurl:"
   Deployment and simulation framework for dynamic 
   allocation and integration of opportunistic resources
