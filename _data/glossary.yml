@@ -34,8 +34,8 @@ scheduling algorithm:
   name: scheduling algorithm
   description: |-
     Not specified yet.
-static resources: 
-  name: static resources
+static resource: 
+  name: static resource
   description: |-
     Not specified yet.
 task: 
