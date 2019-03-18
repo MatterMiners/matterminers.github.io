@@ -8,7 +8,7 @@
 					{% for event in site.events %}
 						{% assign event_start_date = event.date | date: '%s' %}
 						{% if event_start_date >= current_date %}
-							<li>{{ event.date | date: '%B %d, %Y' }}: <em>{{event.title}}</em> at <a class="white-text" href="{{event.event.href}}" target="_blank">{{event.event.title}} in {{event.event.location}}</a></li>
+							{% include event-overview.html event-id=event %}
 						{% endif %}
 					{% endfor %}
 				</ul>

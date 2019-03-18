@@ -1,0 +1,4 @@
+{% assign event = include.event-id %}
+<li>
+	{{ event.date | date: '%B %d, %Y' }}: <em>{{ event.title }}</em> at <a class="white-text" href="{{event.event.href}}" target="_blank">{{ event.event.title }} in {{ event.event.location }}</a>
+</li>
