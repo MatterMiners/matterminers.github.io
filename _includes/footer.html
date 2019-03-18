@@ -4,8 +4,13 @@
 			<div class="col l9 s12">
 				<h5 class="white-text">Upcoming presentations</h5>
 				<ul>
-					<li>27.03.2018: <a class="white-text" href="http://aachen19.dpg-tagungen.de" target="_blank"><em>HEP Analyses in a Cloud</em></a> at DPG-Fr&uuml;hjahrstagung 2019 in Aachen</li>
-					<li>14.03.2019: <a class="white-text" href="https://pc2.uni-paderborn.de/de/about-pc2/announcements/news-events/fruehjahrstagung-zki-ak-sc-2019/" target="_blank"><em>Conquering Grid & Cloud with HPC: Dynamic Multi-user Workflow Scheduling using Containers and Virtualisation</em></a> at Fr&uuml;hjahrstagung ZKI AK-SC 2019 in Paderborn</li>
+					{% assign current_date = site.time | date: '%s' %}
+					{% for event in site.events %}
+						{% assign event_start_date = event.date | date: '%s' %}
+						{% if event_start_date >= current_date %}
+							<li>{{ event.date | date: '%B %d, %Y' }}: <em>{{event.title}}</em> at <a class="white-text" href="{{event.event.href}}" target="_blank">{{event.event.title}} in {{event.event.location}}</a></li>
+						{% endif %}
+					{% endfor %}
 				</ul>
 			</div>
 			<div class="col l3 s12">
