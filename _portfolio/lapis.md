@@ -2,7 +2,7 @@
 name: Lapis
 project-id: lapis
 subcaption: Lapis is an adaptable, performant, and interactive scheduling (Lapis) simulator
-documentation: 
+documentation: https://lapis-sim.readthedocs.io
 git: https://github.com/MineralMining/lapis
 logo: 
 ---
