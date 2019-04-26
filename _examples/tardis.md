@@ -2,7 +2,7 @@
 name: TARDIS – Resourcemanager
 project-id: tardis
 subcaption: Transparent Adaptive Resource Dynamic Integration System
-git: https://github.com/tardis-resourcemanager/tardis
+git: https://github.com/MatterMiners/tardis
 doi: http://doi.org/10.5281/zenodo.2240606
 logo: tardis_logo.svg
 ---
