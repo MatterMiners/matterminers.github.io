@@ -4,7 +4,7 @@ project-id: tardis
 subcaption: Transparent Adaptive Resource Dynamic Integration System
 documentation: https://cobald-tardis.readthedocs.io/en/latest/?badge=latest
 git: https://github.com/MatterMiners/tardis
-doi: http://doi.org/10.5281/zenodo.2240606
+doi: https://doi.org/10.5281/zenodo.3257718
 logo: tardis_logo.svg
 ---
 
