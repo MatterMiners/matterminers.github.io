@@ -45,4 +45,4 @@ task:
 utilisation: 
   name: utilisation
   description: |-
-    The value of utilisation is defined between [0, 1]. An utilisation of 0 means that e.g. none of the cores provided by a resource are actually used although the resource itself is allocated. An utilisation of 1 means taht e.g. all cores provided by a resoure are used. Thus, utilisation defines the quality how well a resource is used.
+    The value of utilisation is defined between [0, 1]. A utilisation of 0 means that e.g. none of the cores provided by a resource are actually used although the resource itself is allocated. A utilisation of 1 means that e.g. all cores provided by a resoure are used. Thus, utilisation defines the quality how well a resource is used.
