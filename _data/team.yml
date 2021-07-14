@@ -1,0 +1,28 @@
+- name: Florian von Cube
+  github: 
+  avatar: 
+  role: Doctoral Researcher
+- name: Max Fischer
+  github: maxfischer2781
+  avatar: /assets/images/max_fischer.jpeg
+  role: Researcher
+- name: Manuel Giffels
+  github: giffels
+  avatar: /assets/images/manuel_giffels.jpeg
+  role: Researcher
+- name: Robin Hofsaess
+  github: RHofsaess
+  avatar: 
+  role: Doctoral Researcher
+- name: Maximilian Horzela
+  github: HerrHorizontal
+  avatar: 
+  role: Doctoral Researcher
+- name: Eileen Kuehn
+  github: eileen-kuehn
+  avatar: /assets/images/eileen_kuehn.jpeg
+  role: Researcher
+- name: Matthias Schnepf
+  github: mschnepf
+  avatar: /assets/images/matthias_schnepf.jpeg
+  role: Researcher
