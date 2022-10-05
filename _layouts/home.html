@@ -28,7 +28,7 @@
 				<div class="card-content">
 					<span class="card-title black-text">Simulate</span>
 					<p>
-						Lapis provides a framework to simulate scheduling of tasks for static and opportunistic resources. It uses COBalD for dynamic resource allocation. 
+						Lapis provides a framework to simulate scheduling of tasks for static and opportunistic resources. It uses COBalD for dynamic resource allocation.
 					</p>
 				</div>
 				<div class="card-action">
@@ -112,7 +112,13 @@
 					<div class="card medium">
 						{%- if entry.avatar %}
 						<div class="card-image">
-							<img src="{{ entry.avatar }}" alt="{{ entry.name }}"/>
+							<img
+								src="{{ entry.avatar }}"
+								alt="{{ entry.name }}"
+								{%- if entry.avatar_copyright %}
+								title="{{ entry.avatar_copyright }}"
+								{% endif %}
+							/>
 						</div>
 						{% endif %}
 						<div class="card-content">
