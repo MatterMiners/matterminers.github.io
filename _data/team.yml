@@ -1,6 +1,7 @@
-- name: Florian von Cube
+- name: R. Florian von Cube
   github: rfvc
-  avatar: 
+  avatar: /assets/images/florian_von_cube.jpg
+  avatar_copyright: "&copy; CERN"
   role: Researcher
 - name: Max Fischer
   github: maxfischer2781
@@ -16,7 +17,8 @@
   role: Doctoral Researcher
 - name: Maximilian Horzela
   github: HerrHorizontal
-  avatar: 
+  avatar: /assets/images/maximilian_horzela.jpg
+  avatar_copyright: "&copy; CERN"
   role: Doctoral Researcher
 - name: Eileen Kuehn
   github: eileen-kuehn
