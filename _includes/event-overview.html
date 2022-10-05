@@ -1,6 +1,16 @@
 {% assign event = include.event-id %}
 <li style="margin-bottom: 5px;">
-	{{ event.date | date: '%B %d, %Y' }}: 
+  {% if event.date_end %}
+    {% assign start_year=event.date|date:'%Y' %}
+    {% assign end_year=event.date_end|date:'%Y' %}
+    {% if start_year == end_year %}
+      {{ event.date|date: '%B %d' }} - {{ event.date_end|date: '%B %d, %Y' }}:
+    {% else %}
+      {{ event.date|date: '%B %d, %Y' }} - {{ event.date_end|date: '%B %d, %Y' }}:
+    {% endif %}
+  {% else %}
+    {{ event.date|date: '%B %d, %Y' }}:
+  {% endif %}
   {{ event.type }} by {{ event.presenter }} about
   <em>
     {% if event.href %}<a class="white-text" href={{event.href}}>{{ event.title }}</a>
