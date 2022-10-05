@@ -1,7 +1,7 @@
 - name: Florian von Cube
-  github: 
+  github: rfvc
   avatar: 
-  role: Doctoral Researcher
+  role: Researcher
 - name: Max Fischer
   github: maxfischer2781
   avatar: /assets/images/max_fischer.jpeg
@@ -21,6 +21,10 @@
 - name: Eileen Kuehn
   github: eileen-kuehn
   avatar: /assets/images/eileen_kuehn.jpeg
+  role: Researcher
+- name: Benoit Roland
+  github: benoitroland
+  avatar: 
   role: Researcher
 - name: Matthias Schnepf
   github: mschnepf
