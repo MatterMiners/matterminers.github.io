@@ -5,14 +5,13 @@ date_end: 2022-10-28 12:00 +0200
 presenter: Ralf Florian von Cube
 author:
   - Ralf Florian Von Cube
-    Alexander Schmidt
-    Guenter Quast
-    Manuel Giffels
-    Andreas Nowack
-    Thomas Kress
-    Alexander Jung
-    Matthias Schnepf
-
+  - Alexander Schmidt
+  - Guenter Quast
+  - Manuel Giffels
+  - Andreas Nowack
+  - Thomas Kress
+  - Alexander Jung
+  - Matthias Schnepf
 type: Poster
 href: https://indico.cern.ch/event/1106990/contributions/4991258/
 event:
