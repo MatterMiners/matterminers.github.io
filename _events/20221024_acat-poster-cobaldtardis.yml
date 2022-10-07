@@ -1,0 +1,21 @@
+---
+title:  Transparent expansion of a WLCG compute site using HPC resources
+date: 2022-10-24 12:00 +0200
+date_end: 2022-10-28 12:00 +0200
+presenter: Ralf Florian von Cube
+author:
+  - Ralf Florian Von Cube
+  - Alexander Schmidt
+  - Guenter Quast
+  - Manuel Giffels
+  - Andreas Nowack
+  - Thomas Kress
+  - Alexander Jung
+  - Matthias Schnepf
+type: Poster
+href: https://indico.cern.ch/event/1106990/contributions/4991258/
+event:
+  title: 21st International Workshop on Advanced Computing and Analysis Techniques in Physics Research
+  location: Bari, Italy
+  href: https://indico.cern.ch/event/1106990/
+---
