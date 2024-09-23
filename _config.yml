@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: MatterMiners
-name: MatterMiners @ Karlsruhe Institute of Technology - Steinbuch Centre for Computing
+name: MatterMiners @ Karlsruhe Institute of Technology - Scientific Computing Center
 description: >- # this means to ignore newlines until "baseurl:"
-  Deployment and simulation framework for dynamic 
+  Deployment and simulation framework for dynamic
   allocation and integration of opportunistic resources
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://matterminers.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -31,7 +31,7 @@ theme: minima
 plugins:
   - jekyll-feed
 
-collections: 
+collections:
   - portfolio
   - examples
   - events
